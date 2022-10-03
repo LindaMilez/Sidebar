@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(202, 227, 244);
+}
+#sidebar {
+  position: fixed;
+  width: 40%;
+  height: 100%;
+  left: -40%;
+  background-color: rgb(246, 249, 251);
+}
+
+#sidebar li {
+  color: rgb(39, 58, 202);
+  font-size: 30px;
+  padding: 30px;
+  text-align: center;
+}
+
+.toggle-btn {
+  position: absolute;
+  left: 330%;
+  top: 15px;
+}
+
+.toggle-btn span {
+  display: block;
+  background-color: rgb(6, 65, 146);
+  width: 30px;
+  height: 5px;
+  margin: 3px;
+}
+
+#sidebar.active {
+  left: 0;
+}
